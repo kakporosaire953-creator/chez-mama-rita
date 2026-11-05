@@ -2,7 +2,7 @@
 
 Solution de gestion numérique pour le restaurant **Chez Mama Rita**, situé à **Cotonou, Bénin**.
 
-## 🎯 Objectif du projet
+## Objectif du projet
 
 Remplacer le système manuel (commandes sur papier, transmission orale à la cuisine, facturation manuelle)
 par une application permettant de :
@@ -44,7 +44,7 @@ selon les règles définies dans `AGENTS.md` :
 5. Toute modification importante est **traçable** (journal + changelog + fiches de décision dans `docs/07-decisions.md`).
 6. **Aucun développement ne démarre** avant validation humaine des phases d'analyse, d'architecture, de planification et de tests.
 
-## 🚀 Comment lancer le workflow des agents
+##  Comment lancer le workflow des agents
 
 1. **Lire `AGENTS.md`** (règles communes) puis le profil de l'agent concerné dans `agents/`.
 2. **L'Orchestrator attribue la mission** via le modèle `templates/agent-mission.md` et l'inscrit dans `journal.md`.
@@ -60,7 +60,3 @@ selon les règles définies dans `AGENTS.md` :
 - **14 questions ouvertes (Q1–Q14)** en attente de clarification auprès du client — voir `docs/02-requirements.md` § « Questions ouvertes ».
 - Aucun code applicatif n'existe. Aucune décision technique définitive n'a été prise.
 
-## ▶️ Prochaine mission proposée
-
-**Analyse approfondie du besoin métier** (mission du Business Analyst Agent, sous coordination de l'Orchestrator),
-en intégrant les réponses du client aux questions Q1–Q14 lorsqu'elles seront disponibles.
